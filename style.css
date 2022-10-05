@@ -1,0 +1,10 @@
+body, a {
+    font-family: monospace;
+    text-align: center;
+    color: black;
+
+}
+
+svg { 
+    filter: drop-shadow(8px 8px 6px gray)
+}
