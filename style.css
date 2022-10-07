@@ -1,11 +1,38 @@
+/* (A) CONTAINER */
+#grid-col {
+    /* (A1) GRID LAYOUT */
+    display: grid;
+   
+    /* (A2) SPECIFY COLUMNS */
+    grid-template-columns: auto auto auto;
+   
+    /* we can also specify exact pixels, percentage, repeat
+    grid-template-columns: 50px 100px 150px;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: 100px 20% auto;
+    grid-template-columns: repeat(3, auto); */
+  }
+   
+  /* (B) GRID CELLS */
+  div.cell {
+    background: white;
+    border: 1px solid black;
+    padding: 10px;
+  }
+   
+  /* (C) RESPONSIVE - 1 COLUMN ON SMALL SCREENS */
+  @media screen and (max-width: 640px) {
+    #grid-col { grid-template-columns: 100%; }
+  }
+
 body, a {
     font-family: 'Courier New', Courier, monospace;
     color: black;
-
+    max-width: 100%;
 }
 
-svg { 
-    filter: drop-shadow(8px 8px 6px gray)
+.port {
+    letter-spacing: 7rem;
 }
 
 .name {
@@ -13,57 +40,76 @@ svg {
     font-weight: 10;
 }
 
+.about {
+    background-color: antiquewhite;
+}
+
 .businessName {
     font-size: .9rem;
     font-weight: 10;
+    text-align: center;
 }
 
 .businessDetails {
     font-size: .1rem;
+    text-align: center;
 }
 
 .role {
     font-size: .6rem;
+    text-align: center;
 }
 
 .oleanderTrading {
     height: 6rem;
     line-height: .5;
     letter-spacing: .05rem;
+    text-align: center;
 }
 
 .bevansReal {
     height: 6rem;
     line-height: .5;
-    letter-spacing: .2rem;
+    letter-spacing: .05rem;
+    text-align: center;
 }
 
 .perryHamilton {
     height: 6rem;
     line-height: .5;
-    letter-spacing: 2rem;
+    letter-spacing: .05rem;
+    text-align: center;
 }
 
 .casaMadera {
     height: 6rem;
     line-height: .5;
-    letter-spacing: .3rem;
+    letter-spacing: .05rem;
+    text-align: center;
 }
 
 .williamHamilton {
     height: 6rem;
     line-height: .5;
-    letter-spacing: .08rem;
+    letter-spacing: .05rem;
+    text-align: center;
 }
 
 .rareAnimal {
     height: 6rem;
     line-height: .5;
-    letter-spacing: .5rem;
+    letter-spacing: .05rem;
+    text-align: center;
 }
 
 .yellowRoad {
     height: 6rem;
-    line-height: .5rem;
-    letter-spacing: 4rem;
+    line-height: .5;
+    letter-spacing: .05rem;
+    text-align: center;
+}
+
+img {
+    width:150px;
+    height:150px;
 }
