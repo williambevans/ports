@@ -1,11 +1,16 @@
 body, a {
-    font-family: monospace;
+    font-family: 'Courier New', Courier, monospace;
     color: black;
 
 }
 
 svg { 
     filter: drop-shadow(8px 8px 6px gray)
+}
+
+.name {
+    font-size: .9rem;
+    font-weight: 10;
 }
 
 .businessName {
@@ -15,7 +20,6 @@ svg {
 
 .businessDetails {
     font-size: .1rem;
-    font-weight: 10;
 }
 
 .role {
@@ -23,29 +27,43 @@ svg {
 }
 
 .oleanderTrading {
-    height: 20rem;
+    height: 6rem;
+    line-height: .5;
+    letter-spacing: .05rem;
 }
 
 .bevansReal {
-    height: 20rem;
+    height: 6rem;
+    line-height: .5;
+    letter-spacing: .2rem;
 }
 
 .perryHamilton {
-    height: 20rem;
+    height: 6rem;
+    line-height: .5;
+    letter-spacing: 2rem;
 }
 
 .casaMadera {
-    height: 20rem;
+    height: 6rem;
+    line-height: .5;
+    letter-spacing: .3rem;
 }
 
 .williamHamilton {
-    height: 20rem;
+    height: 6rem;
+    line-height: .5;
+    letter-spacing: .08rem;
 }
 
 .rareAnimal {
-    height: 20rem;
+    height: 6rem;
+    line-height: .5;
+    letter-spacing: .5rem;
 }
 
 .yellowRoad {
-    height: 20rem;
+    height: 6rem;
+    line-height: .5rem;
+    letter-spacing: 4rem;
 }
