@@ -7,3 +7,45 @@ body, a {
 svg { 
     filter: drop-shadow(8px 8px 6px gray)
 }
+
+.businessName {
+    font-size: .9rem;
+    font-weight: 10;
+}
+
+.businessDetails {
+    font-size: .1rem;
+    font-weight: 10;
+}
+
+.role {
+    font-size: .6rem;
+}
+
+.oleanderTrading {
+    height: 20rem;
+}
+
+.bevansReal {
+    height: 20rem;
+}
+
+.perryHamilton {
+    height: 20rem;
+}
+
+.casaMadera {
+    height: 20rem;
+}
+
+.williamHamilton {
+    height: 20rem;
+}
+
+.rareAnimal {
+    height: 20rem;
+}
+
+.yellowRoad {
+    height: 20rem;
+}
