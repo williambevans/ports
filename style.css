@@ -33,11 +33,15 @@ body, a {
 
 .port {
     letter-spacing: .05rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 10;
 }
 
 .name {
     font-size: .9rem;
-    font-weight: 10;
+    font-weight: 20;
+    text-align: center;
 }
 
 .about {
