@@ -32,7 +32,7 @@ body, a {
 }
 
 .port {
-    letter-spacing: 7rem;
+    letter-spacing: .05rem;
 }
 
 .name {
