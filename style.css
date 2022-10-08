@@ -112,3 +112,11 @@ img {
     width:150px;
     height:150px;
 }
+
+.myLove {
+    background-color: antiquewhite;
+    -webkit-transform: rotate(40deg);
+    -moz-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+    transform: rotate(40deg);
+}
