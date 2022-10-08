@@ -120,3 +120,7 @@ img {
     -o-transform: rotate(40deg);
     transform: rotate(40deg);
 }
+
+#building {
+    background-color: #AA4933;
+}
